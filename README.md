@@ -65,7 +65,7 @@ Contributions are welcome! If you'd like to improve NetScope Pro, feel free to f
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+This project is released into the public domain under [The Unlicense](http://unlicense.org/).
 
 ---
 Built with ❤️ by the NetScope Team
