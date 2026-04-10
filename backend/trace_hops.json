@@ -1,0 +1,96 @@
+{
+  "stdout": "\r\nTracing route to google.com [142.250.207.142]\r\nover a maximum of 15 hops:\r\n\r\n  1    <1 ms     *       <1 ms  192.168.10.73 \r\n  2     1 ms     1 ms     1 ms  103.245.1.145 \r\n  3     1 ms     1 ms     1 ms  150.129.19.81 \r\n  4     1 ms     1 ms     1 ms  103.234.136.33 \r\n  5    16 ms    16 ms    16 ms  103.218.244.101 \r\n  6    17 ms    16 ms    17 ms  172.253.53.145 \r\n  7    17 ms    17 ms    19 ms  192.178.83.224 \r\n  8    17 ms    17 ms    17 ms  192.178.252.113 \r\n  9    39 ms    39 ms    39 ms  142.251.192.24 \r\n 10    45 ms    45 ms    45 ms  142.250.212.86 \r\n 11    50 ms     *       45 ms  142.251.77.69 \r\n 12    48 ms    48 ms    48 ms  142.250.214.99 \r\n 13    44 ms    44 ms    44 ms  142.250.207.142 \r\n\r\nTrace complete.\r\n",
+  "hops": [
+    {
+      "hop": 1,
+      "line": "  1    <1 ms     *       <1 ms  192.168.10.73 \r",
+      "ip": null,
+      "latency": 0.5,
+      "is_timeout": true
+    },
+    {
+      "hop": 2,
+      "line": "  2     1 ms     1 ms     1 ms  103.245.1.145 \r",
+      "ip": "103.245.1.145",
+      "latency": 1,
+      "is_timeout": false
+    },
+    {
+      "hop": 3,
+      "line": "  3     1 ms     1 ms     1 ms  150.129.19.81 \r",
+      "ip": "150.129.19.81",
+      "latency": 1,
+      "is_timeout": false
+    },
+    {
+      "hop": 4,
+      "line": "  4     1 ms     1 ms     1 ms  103.234.136.33 \r",
+      "ip": "103.234.136.33",
+      "latency": 1,
+      "is_timeout": false
+    },
+    {
+      "hop": 5,
+      "line": "  5    16 ms    16 ms    16 ms  103.218.244.101 \r",
+      "ip": "103.218.244.101",
+      "latency": 16,
+      "is_timeout": false
+    },
+    {
+      "hop": 6,
+      "line": "  6    17 ms    16 ms    17 ms  172.253.53.145 \r",
+      "ip": "172.253.53.145",
+      "latency": 17,
+      "is_timeout": false
+    },
+    {
+      "hop": 7,
+      "line": "  7    17 ms    17 ms    19 ms  192.178.83.224 \r",
+      "ip": "192.178.83.224",
+      "latency": 17,
+      "is_timeout": false
+    },
+    {
+      "hop": 8,
+      "line": "  8    17 ms    17 ms    17 ms  192.178.252.113 \r",
+      "ip": "192.178.252.113",
+      "latency": 17,
+      "is_timeout": false
+    },
+    {
+      "hop": 9,
+      "line": "  9    39 ms    39 ms    39 ms  142.251.192.24 \r",
+      "ip": "142.251.192.24",
+      "latency": 39,
+      "is_timeout": false
+    },
+    {
+      "hop": 10,
+      "line": " 10    45 ms    45 ms    45 ms  142.250.212.86 \r",
+      "ip": "142.250.212.86",
+      "latency": 45,
+      "is_timeout": false
+    },
+    {
+      "hop": 11,
+      "line": " 11    50 ms     *       45 ms  142.251.77.69 \r",
+      "ip": null,
+      "latency": 50,
+      "is_timeout": true
+    },
+    {
+      "hop": 12,
+      "line": " 12    48 ms    48 ms    48 ms  142.250.214.99 \r",
+      "ip": "142.250.214.99",
+      "latency": 48,
+      "is_timeout": false
+    },
+    {
+      "hop": 13,
+      "line": " 13    44 ms    44 ms    44 ms  142.250.207.142 \r",
+      "ip": "142.250.207.142",
+      "latency": 44,
+      "is_timeout": false
+    }
+  ]
+}
